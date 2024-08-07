@@ -15,14 +15,12 @@
 
 
 
-
-# # Part A>>>> Linear regression model with result
-#  
-# 
+# # Part A>>>> Linear regression model with results
+ 
 
 
-# 
-# 
+#  Import Libraries, reading data, training model and plot visualization
+
 # 1.1(a)imported libraries and loaded dataset.Extracted 'temp' and 'cnt' columns to perform operations.
 # 
 #         
@@ -33,8 +31,6 @@
 # 
 #         
 # 1.1(d)Plotted the regression line.
-
-#  Import Libraries
 
 # # 1.1(a)
 
@@ -170,6 +166,7 @@ plt.show
 
 # In[40]:
 
+ ### KPI calculation 
 
 from sklearn.metrics import mean_squared_error, r2_score
 mse = mean_squared_error(Y_tests, Y_predict_test)
@@ -177,9 +174,13 @@ r_squared = r2_score(Y_tests, Y_predict_test)
 r_squared
 
 
+
+
+
+
 # # 1.1(e)
 # 
-# calculate R squared
+# calculate R squared training data
 
 # In[38]:
 
@@ -211,7 +212,7 @@ plt.show
 Y_predict_train=regressor.predict(X_trains)
 
 
-# # Part B>>>>Multiple linear regression model with result
+# # Part B>>>>Multiple linear regression model with results
 # 
 # 
 
@@ -220,13 +221,13 @@ Y_predict_train=regressor.predict(X_trains)
 # 2.1(a)Extracted 'temp' ,'atemp' 'hum','windspeed' and 'cnt' columns to perform operations.
 #       Declared first 4 columns as feature variables and cnt as target variable.
 # 
-# 2.2(b) trained the model
+# 2.2(b) training the model
 # 
-# 2.3(c)Predicted the number of sales.
+# 2.3(c)Predicting the number of sales.
 # 
-# 2.4(d)Calculated the mean squared error.
+# 2.4(d)Calculating the mean squared error.
 # 
-# 2.5(e)Plotted the histrogram .Calculated the adjusted r square and r square.
+# 2.5(e) Histrogram visualization. Calculated adjusted r square and r square.
 
 # # 2.1(a)
 
