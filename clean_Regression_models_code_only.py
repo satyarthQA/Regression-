@@ -47,7 +47,7 @@ import matplotlib.pyplot as plt# here matplotlib is library and pyplot is module
 # In[3]:
 
 
-bike_data= pd.read_csv("/Users/satyarth/Downloads/bike_share_.csv")# declare variable and store the data set
+bike_data= pd.read_csv("/Users/sidomar/Documents/git_collaboration/Regression-/data/bike_share_.csv")# declare variable and store the data set
 # here read_csv is function from pandas library
 bike_data
 
